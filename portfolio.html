@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="main-head">
+      <div class="header-container container">
+        <nav class="main-nav">
+          <a class="logo link" href="#"><span class="logo-color">Web</span>Studio</a>
+          <ul class="menu-nav list">
+            <li class="item"><a class="link" href="./index.html">Студия</a></li>
+            <li class="item"><a class="link current" href="#">Портфолио</a></li>
+            <li class="item"><a class="link" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contact-nav list">
+          <li class="item">
+            <a class="menu-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a class="menu-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Уникальный контент страницы-->
+    <main>
+      <section class="section">
+        <!-- Фильтр работ -->
+        <div class="container">
+          <h2 hidden>Фильтр работ</h2>
+          <ul class="worklist-filter list">
+            <li class="item"><button class="filter-btn" type="button">Все</button></li>
+            <li class="item"><button class="filter-btn" type="button">Веб-сайты</button></li>
+            <li class="item"><button class="filter-btn" type="button">Приложения</button></li>
+            <li class="item"><button class="filter-btn" type="button">Дизайн</button></li>
+            <li class="item"><button class="filter-btn" type="button">Маркетинг</button></li>
+          </ul>
+        </div>
+
+        <!-- Галерея работ -->
+        <div class="container">
+          <h1 hidden>Галерея работ компании</h1>
+          <ul class="worklist-gallery list">
+            <li class="worklist-item">
+              <a class="link" href="#">
+                <img class="worklist-img" src="./images/portfolio/technokryak.jpg" alt="на экране ноутбука открыт сайт" width="370" />
+                <div class="worklist-border">
+                  <h2 class="worklist-head">Технокряк</h2>
+                  <p class="worklist-desc">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            
+            <li class="worklist-item">
+              <a class="link" href="#">
+                <img class="worklist-img" src="./images/portfolio/poster.jpg" alt="баскетболисты играют с мяч" width="370" height="294" />
+                <div class="worklist-border">
+                  <h2 class="worklist-head">
+                    Постер<span lang="en"> New Orlean vs Golden Star</span>
+                  </h2>
+                  <p class="worklist-desc">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="worklist-item">
+              <a class="link" href="#">
+                <img class="worklist-img" src="./images/portfolio/seafood.jpg" alt="логотип на фоне рыбы" width="370" height="294" />
+                <div class="worklist-border">
+                  <h2 class="worklist-head">Ресторан<span lang="en"> Seafood</span></h2>
+                  <p class="worklist-desc">Приложение</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="worklist-item">
+              <a class="link" href="#">
+                <img class="worklist-img" src="./images/portfolio/prime.jpg" alt="наушники" width="370" height="294" />
+                <div class="worklist-border">
+                  <h2 class="worklist-head">Проект<span lang="en"> Prime</span></h2>
+                  <p class="worklist-desc">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="worklist-item">
+              <a class="link" href="#">
+                <img class="worklist-img" src="./images/portfolio/boxes.jpg" alt="две коробки" width="370" height="294" />
+                <div class="worklist-border">
+                  <h2 class="worklist-head">Проект<span lang="en"> Boxes</span></h2>
+                  <p class="worklist-desc">Приложение</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="worklist-item">
+              <a class="link" href="#">
+                <img class="worklist-img" src="./images/portfolio/borders.jpg" alt="монитор" width="370" height="294" />
+                <div class="worklist-border">
+                  <h2 class="worklist-head"><span lang="en"> Inspiration has no Borders</span></h2>
+                  <p class="worklist-desc">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="worklist-item">
+              <a class="link" href="#">
+                <img class="worklist-img" src="./images/portfolio/magazine.jpg" alt="открытый журнал" width="370" height="294" />
+                <div class="worklist-border">
+                  <h2 class="worklist-head">Издание<span lang="en"> Limited Edition</span></h2>
+                  <p class="worklist-desc">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="worklist-item">
+              <a class="link" href="#">
+                <img class="worklist-img" src="./images/portfolio/project_lab.jpg" alt="фото ярлыка" width="370" height="294" />
+                <div class="worklist-border">
+                  <h2 class="worklist-head">Проект<span lang="en"> LAB</span></h2>
+                  <p class="worklist-desc">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="worklist-item">
+              <a class="link" href="#">
+                <img class="worklist-img" src="./images/portfolio/businnes.jpg" alt="человек работает на ноутбуке" width="370" height="294" />
+                <div class="worklist-border">                  
+                  <h2 class="worklist-head"><span lang="en"> Growing Business</span></h2>
+                  <p class="worklist-desc">Приложение</p>
+                </div>
+
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer class="footer-section">
+      <div class="container">
+        <a class="footer-logo link" href="#"><span class="logo-color">Web</span>Studio</a>
+        <address class="footer-address">
+          <ul class="footer-contact list">
+            <li class="item">
+              <a class="address-link link" href="https://goo.gl/maps/NRkBzwsqkBbF317T6" target="_blank"
+                rel="noopener noreferrer">г.
+                Киев, пр-т Леси Украинки, 26</a><br>
+            </li>
+            <li class="item">
+              <a class="contact-link link" href="mailto:info@example.com">info@example.com</a><br>
+            </li>
+            <li class="item">
+              <a class="contact-link link" href="tel:+380991111111">+38 099 111 11 11</a><br>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+</body>
+</html>

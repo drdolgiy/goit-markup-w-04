@@ -1,0 +1,398 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --third-color: #ffffff;
+  --fourth-color: #2f303a;
+  --button-color: #f5f4fa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-color);
+}
+
+/* ------------- Контейнер ---------------- */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* ----------------Шапка сайта--------------------------------------- */
+.header-container {
+  display: flex;
+}
+
+/* ----------------------Оформление логотипа -----------------------*/
+.logo {
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-right: 93px;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-color {
+  color: var(--accent-color);
+}
+
+/* ---------------------Оформление меню навигации ------------------*/
+.main-nav {
+  display: flex;
+}
+
+.menu-nav {
+  display: flex;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.menu-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.menu-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.menu-nav .link:hover,
+.menu-nav .link:focus {
+  color: var(--accent-color);
+}
+.menu-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* ---------------- Оформление меню контактов--------------------- */
+.contact-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.contact-nav .item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contact-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.menu-contact {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.menu-contact:hover,
+.menu-contact:focus {
+  color: var(--accent-color);
+}
+
+/* -------------- Нижняя линия шапки------------- */
+.main-head {
+  border-bottom: 1px solid #ececec;
+}
+
+/* --------------------Оформление раздела Hero ---------------------*/
+.hero {
+  text-align: center;
+  padding: 200px 0;
+  background-color: var(--fourth-color);
+}
+
+.hero-head {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--third-color);
+}
+
+/*-------------------- Оформление кнопки "Заказать услугу" -----------------*/
+.hero-button {
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--third-color);
+  background: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: #188ce8;
+}
+
+/*---------------- Оформление раздела "Особенности компании ---------------------*/
+.features {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+.features-list {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+}
+
+.features-head {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+/* --------------- Оформление раздела "Чем занимается компания" ---------------------------- */
+.worklist-section {
+  padding-top: 0;
+}
+
+.main-worklist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.worklist {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* --------------- Оформление раздела "Команда компании" ---------------------------- */
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.team-list-item {
+  margin-left: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--third-color);
+}
+
+.team-img {
+  margin-bottom: 30px;
+}
+
+.name {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.profession {
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+/* --------------- Оформление футера ---------------------------- */
+.footer-section {
+  padding: 60px 0;
+  background-color: var(--fourth-color);
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+
+.address-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+
+.contact-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address {
+  font-style: inherit;
+}
+
+.footer-contact .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer-address .link:hover,
+.footer-address .link:focus {
+  color: var(--accent-color);
+}
+
+/* ------------------------Страница Портфолио --------------------------------- */
+
+/* --------------- Оформление кнопок  Фильтр работ ---------------------------- */
+.worklist-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.worklist-filter .item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.filter-btn {
+  padding: 6px 22px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--button-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--third-color);
+}
+
+/* --------------- Оформление галерея работ ---------------------------- */
+.worklist-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.worklist-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.worklist-head {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);
+}
+
+.worklist-desc {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+.worklist-border {
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
