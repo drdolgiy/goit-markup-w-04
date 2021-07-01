@@ -349,7 +349,7 @@ body {
 
 /* -------------- Оформление раздела Постоянные клиенты ----------- */
 
-.customers_head {
+.customers-head {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -364,11 +364,11 @@ body {
   justify-content: center;
 }
 
-.customers_list:not(:last-child) {
+.customers-list:not(:last-child) {
   margin-right: 30px;
 }
 
-.customers_link {
+.customers-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -380,12 +380,12 @@ body {
   color: var(--icon-color);
 }
 
-.customers_link:hover {
+.customers-link:hover {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.customers_icon {
+.customers-icon {
   fill: currentColor;
 }
 
@@ -393,6 +393,14 @@ body {
 .footer-section {
   padding: 60px 0;
   background-color: var(--fourth-color);
+}
+
+.footer-block {
+  display: flex;
+}
+
+.footer-link {
+  margin-right: 70px;
 }
 
 .footer-logo {
@@ -431,6 +439,47 @@ body {
 .footer-address .link:hover,
 .footer-address .link:focus {
   color: var(--accent-color);
+}
+
+.footer-join-us-block {
+  margin-top: 12px;
+}
+
+.footer-icon-head {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--third-color);
+}
+
+.footer-social-icon-list {
+  display: flex;
+}
+
+.footer-icon-list:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--third-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+
+.footer-icon-link:hover {
+  background-color: var(--accent-color);
+}
+
+.footer-social-icon {
+  fill: currentColor;
 }
 
 /* ------------------------Страница Портфолио --------------------------------- */
