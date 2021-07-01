@@ -6,7 +6,7 @@
   --fourth-color: #2f303a;
   --hero-color: #c4c4c4;
   --button-color: #f5f4fa;
-  --features-color: #f5f4fa;
+  --icon-color: #afb1b8;
 }
 
 h1,
@@ -230,7 +230,7 @@ body {
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
-  background: var(--features-color);
+  background: var(--button-color);
 }
 
 .features-head {
@@ -309,12 +309,84 @@ body {
 }
 
 .profession {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.team-container .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--icon-color);
+  background-color: var(--third-color);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+
+.social-link:hover {
+  color: var(--third-color);
+  background-color: var(--accent-color);
+}
+
+.social-icon {
+  fill: currentColor;
+}
+
+/* -------------- Оформление раздела Постоянные клиенты ----------- */
+
+.customers_head {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+
+.customers {
+  display: flex;
+  justify-content: center;
+}
+
+.customers_list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.customers_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid;
+  border-color: var(--icon-color);
+  border-radius: 4px;
+  color: var(--icon-color);
+}
+
+.customers_link:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.customers_icon {
+  fill: currentColor;
 }
 
 /* --------------- Оформление футера ---------------------------- */
@@ -355,6 +427,7 @@ body {
 .footer-contact .item:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .footer-address .link:hover,
 .footer-address .link:focus {
   color: var(--accent-color);
