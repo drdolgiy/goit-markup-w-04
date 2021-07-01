@@ -338,7 +338,8 @@ body {
   height: 44px;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   color: var(--third-color);
   background-color: var(--accent-color);
 }
@@ -380,7 +381,8 @@ body {
   color: var(--icon-color);
 }
 
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -474,7 +476,8 @@ body {
   height: 44px;
 }
 
-.footer-icon-link:hover {
+.footer-icon-link:hover,
+.footer-icon-link:focus {
   background-color: var(--accent-color);
 }
 
