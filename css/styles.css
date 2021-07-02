@@ -400,6 +400,7 @@ body {
 
 .footer-block {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-link {
@@ -447,9 +448,6 @@ body {
 }
 
 /* ------ Ссылки на соц.сети----------- */
-.footer-join-us-block {
-  margin-top: 12px;
-}
 
 .footer-icon-head {
   margin-bottom: 20px;
