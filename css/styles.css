@@ -406,6 +406,7 @@ body {
   margin-right: 70px;
 }
 
+/* ------ Логотип в футере ------- */
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
@@ -417,6 +418,7 @@ body {
   color: var(--third-color);
 }
 
+/* ------контакты в футере --------- */
 .address-link {
   font-size: 14px;
   line-height: 1.71;
@@ -444,6 +446,7 @@ body {
   color: var(--accent-color);
 }
 
+/* ------ Ссылки на соц.сети----------- */
 .footer-join-us-block {
   margin-top: 12px;
 }
